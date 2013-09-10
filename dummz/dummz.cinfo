@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ASCII"?>
+<com.csc.dip.pms.xinfo.core.model:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.csc.dip.pms.xinfo.core.model="http:///com/csc/dip/pms/xinfo/core/model.ecore">
+  <properties name="isSetLocaleAttributes" value="false" type="constant"/>
+  <children xsi:type="com.csc.dip.pms.xinfo.core.model:Group" elementId="ID_pRFXkQp3EeOsHMc2Mk06TQ">
+    <properties name="caption" value="sdfg" type="constant"/>
+    <properties name="multiple" value="false" type="constant"/>
+    <properties name="relevant" value="1" type="constant"/>
+    <properties name="editable" value="1" type="constant"/>
+    <children xsi:type="com.csc.dip.pms.xinfo.core.model:Input" elementId="abc">
+      <properties name="source" value="abc" type="attribute"/>
+      <properties name="caption" value="ccc" type="constant"/>
+      <properties name="baseDataTypes" value="string" type="constant"/>
+      <properties name="relevant" value="1" type="constant"/>
+      <properties name="editable" value="1" type="constant"/>
+      <properties name="hasChoice" value="false" type="constant"/>
+      <properties name="description" value="ccc" type="constant"/>
+    </children>
+    <children xsi:type="com.csc.dip.pms.xinfo.core.model:Input" elementId="b">
+      <properties name="source" value="b" type="attribute"/>
+      <properties name="caption" value="b" type="constant"/>
+      <properties name="baseDataTypes" value="string" type="constant"/>
+      <properties name="relevant" value="1" type="constant"/>
+      <properties name="editable" value="1" type="constant"/>
+      <properties name="hasChoice" value="false" type="constant"/>
+    </children>
+    <children xsi:type="com.csc.dip.pms.xinfo.core.model:Output" elementId="f">
+      <properties name="source" value="f" type="computable"/>
+      <properties name="caption" value="f" type="constant"/>
+      <properties name="baseDataTypes" value="string" type="constant"/>
+      <properties name="relevant" value="1" type="constant"/>
+    </children>
+  </children>
+</com.csc.dip.pms.xinfo.core.model:Model>
