@@ -1,4 +1,4 @@
-;1	10.09.2013 14:59:40	MRE	
+;1	12.09.2013 12:39:50	MRE	
 X0 de07a8 0 0 0 0 0 0
 
 O0 de0694 0 0 0 0 0 0
@@ -21,18 +21,24 @@ IncValue
 
 F0 de0860 0 1bcae751 0 0 0 0
 
-F1 1bcae751 de0860 0 0 0 0 2
+F1 1bcae751 de0860 0 3bbb87d6 0 0 2
 f
 Funktion
 abc.apçä
+F1 3bbb87d6 de0860 0 0 0 0 2
+f1
+Funktion
+abc.neu
 A0 de0918 0 6664bd88 0 0 0 0
 
-A2 6664bd88 de0918 0 5b3cbf45 0 0 2
+A3 6664bd88 de0918 0 5b3cbf45 0 0 2
 abc
 ap
 abc & b
 neu
 12456
+neu2
+456
 A2 5b3cbf45 de0918 0 6729ab0e 0 0 2
 b
 A_1
@@ -45,7 +51,7 @@ dr
 b
 T0 de0974 0 66abcf77 0 0 0 0
 
-T5 66abcf77 de0974 0 0 0 0 2
+T6 66abcf77 de0974 0 0 0 0 2
 T_1
 key
 value
@@ -56,7 +62,9 @@ k2
 k3
 60
 k4
-branch1
+branch2
+k5
+branch2 neu
 -
 O0
 E0
@@ -64,8 +72,9 @@ L0
 B0
 P1
 2b841aa9
-F1
+F2
 1bcae751
+3bbb87d6
 A3
 6664bd88
 5b3cbf45
